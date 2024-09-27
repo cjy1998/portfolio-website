@@ -3,15 +3,36 @@
 
 - [English](#english)
 - [中文](#中文)
-
 ---
-
 ### English
+#### 一、Project brief
+This is a portfolio website constructed using modern front-end technologies, aiming to display personal front-end projects and work experiences.
+#### 二、Technology stack
+React: A popular JavaScript library for building user interfaces.
 
-// Your English content here
+Next.js: A server-side rendering framework based on React, providing better performance and SEO.
 
+Tailwind CSS: A practical CSS framework that helps quickly build beautiful interfaces.
+
+Framer Motion: Used to achieve smooth animation effects in React applications.
+
+Stern UI: Possibly a specific UI component library or design system.
+#### 三、Project structure
+Briefly introduce the project's file structure and the uses of major directories.
+#### 四、Installation and operation
+1. Clone the project.
+```bash
+ git clone [项目仓库地址]
+```
+2. Install dependencies.
+```bash
+ npm install
+```
+3. Start the development server.
+```bash
+npm run dev
+```
 ---
-
 ### 中文
 #### 一、项目简介
 这是一个使用现代前端技术构建的作品集网站，旨在展示个人的前端项目和工作经历。
@@ -29,10 +50,17 @@ Stern UI：可能是一个特定的 UI 组件库或设计系统。
 #### 三、项目结构
 简要介绍项目的文件结构和主要目录的用途。
 #### 四、安装与运行
-克隆项目
+1. 克隆项目
 ```bash
  git clone [项目仓库地址]
 ```
-
+2. 安装依赖
+```bash
+ npm install
+```
+3. 启动开发服务器]
+```bash
+npm run dev
+```
 // Your Chinese content here
 
