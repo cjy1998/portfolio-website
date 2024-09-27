@@ -22,7 +22,7 @@ Briefly introduce the project's file structure and the uses of major directories
 #### 4、Installation and operation
 1. Clone the project.
 ```bash
- git clone [https://github.com/cjy1998/portfolio-website.git]
+ git clone https://github.com/cjy1998/portfolio-website.git
 ```
 2. Install dependencies.
 ```bash
@@ -52,7 +52,7 @@ Stern UI：可能是一个特定的 UI 组件库或设计系统。
 #### 四、安装与运行
 1. 克隆项目
 ```bash
- git clone [https://github.com/cjy1998/portfolio-website.git]
+ git clone https://github.com/cjy1998/portfolio-website.git
 ```
 2. 安装依赖
 ```bash
@@ -62,5 +62,3 @@ Stern UI：可能是一个特定的 UI 组件库或设计系统。
 ```bash
 npm run dev
 ```
-// Your Chinese content here
-
