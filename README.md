@@ -87,7 +87,7 @@ Stern UI：可能是一个特定的 UI 组件库或设计系统。
  npm install
 ```
 
-3. 启动开发服务器]
+3. 启动开发服务器
 
 ```bash
 npm run dev
