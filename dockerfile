@@ -6,7 +6,9 @@ RUN npm install
 
 COPY . .
 
-RUN npm run build && ls -al /app/out
+RUN npm run build
+# 检查输出目录内容
+RUN ls -al /app/out 
 
 FROM nginx:stable-alpine
 
