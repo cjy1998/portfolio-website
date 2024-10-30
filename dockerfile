@@ -9,10 +9,10 @@ COPY . .
 RUN npm run build
 
 FROM nginx:stable-alpine
-COPY --from=builder /out /usr/share/nginx/html
+COPY --from=builder /app/out /usr/share/nginx/html
 COPY --from=builder /app/nginx/nginx.conf /etc/nginx/nginx.conf
 # 暴露 Nginx 的默认端口
-EXPOSE 80
+EXPOSE 3000
 
 # 启动 Nginx
 CMD ["nginx", "-g", "daemon off;"]
